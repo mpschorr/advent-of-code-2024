@@ -14,5 +14,5 @@ val input by lazy { getDayFile("input.txt") }
 
 fun Any?.println() = println(this)
 fun Any?.println(label: String) {
-    println("$label: $this")
+    kotlin.io.println("$label: $this")
 }
